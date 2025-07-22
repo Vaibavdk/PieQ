@@ -1,22 +1,22 @@
-OOPs Concepts:
+#OOPs Concepts:
 
-Class:
+##Class:
     A class is a user defined data type in oops. It defines attributes and methods that describe the properties and behavior of the objects created from it.
 
-Objects:
+##Objects:
     An object is a real-world instance of a class. It has its own attributes and can use the class methods.
 
-4 Main Pillars of OOPs:
+##4 Main Pillars of OOPs:
 
-1) Abstraction:
+###1) Abstraction:
     Abstraction is used to simplify complex systems by focusing on essential features and hiding unnecessary details.
     Eg: Let us take a class called Car with a function named accelerate(). The driver does not need to know the internal working of how speed is increased , they just call the function.
 
-2) Inheritance:
+###2) Inheritance:
     Inheritance is mainly used to improve code reusability. It allows a subclass (child class) to inherit the attributes and methods from a superclass (parent class).
     Eg: Consider a class Car with general attributes like model, color, and year. A class ElectricCar can inherit these attributes and add its own features like battery Capacity.
 
-3) Polymorphism:
+###3) Polymorphism:
     Poly means "many" and Morphism means "forms". Polymorphism means multiple forms. There are mainly 2 types:
 
     * Compile-Time Polymorphism (Overloading):
@@ -25,7 +25,7 @@ Objects:
     * Run-Time Polymorphism (Overriding):
         The subclass contains the same function as the superclass with the same parameters and return type. It overrides the base class function to increase or extend functionality.
 
-4) Encapsulation:
+###4) Encapsulation:
     Encapsulation means hiding data from unauthorized access by declaring it as private. Getter and setter methods can be used to access and modify the data.
     Eg: Setting the account balance as a private variable and using a getBalance() method to access it.
 
