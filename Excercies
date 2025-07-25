@@ -11,7 +11,7 @@ fun main(){
     println(arr.joinToString())
 
     for (i in 1 until 26){
-        val randomIndex=Random.nextInt(0,49)
+        val randomIndex=Random.nextInt(0,50)
         if(arr[randomIndex]==0){
             dup.add(randomIndex)
         }
