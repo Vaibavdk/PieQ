@@ -1,0 +1,38 @@
+import kotlin.random.Random
+fun main(){
+    val int =50
+    val a=mutableListOf<Int>()
+    val dup=mutableListOf<Int>()
+    val arr=Array(50){0}
+
+    for(i in 0 until 50){
+        arr[i]=Random.nextInt(0,1001)
+    }
+    println(arr.joinToString())
+
+    for (i in 1 until 26){
+        val randomIndex=Random.nextInt(0,49)
+        if(arr[randomIndex]==0){
+            dup.add(randomIndex)
+        }
+        else{
+            arr[randomIndex]=0
+        }
+    }
+    println("Marking as 0 ")
+    println(arr.joinToString())
+
+    for (i in arr){
+        if (i!=0){
+            a.add(i)
+        }
+    }
+    println("After removing 0 ")
+
+    println(a.toString())
+
+    println("Duplicate random number for removing")
+    println(dup.toString()
+
+
+}
